@@ -1,0 +1,24 @@
+{
+  "name": "js-lean",
+  "version": "1.0.0",
+  "description": "js-lean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanghua521/js-lean.git"
+  },
+  "author": "shanghua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanghua521/js-lean/issues"
+  },
+  "homepage": "https://github.com/shanghua521/js-lean#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4"
+  }
+}
