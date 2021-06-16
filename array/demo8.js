@@ -63,8 +63,8 @@ console.log(s); // 24
 var array = ["a", "b", "c"];
 var iterator = array.entries();
 console.log(iterator.next().value); // [0, "a"];
-console.log(iterator.next().value); // [0, "a"];
-console.log(iterator.next().value); // [0, "a"];
+console.log(iterator.next().value); // [1, "b"];
+console.log(iterator.next().value); // [2, "c"];
 console.log(iterator.next().value); // undefined,迭代器处于数组尾部时，再迭代就会返回 undefined
 
 // find & findIndex
