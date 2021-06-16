@@ -13,5 +13,6 @@ Array.prototype.push = function (...items) {
   O.length = newLength;
   return newLength;
 };
+
 const array = [1, 30, 4, 21, 100000];
 array.push(222);

@@ -33,15 +33,15 @@ console.log(isExist); // true
 
 // map 方法
 var array = [18, 9, 10, 35, 80];
-var array2 = array.map((item) => item + 1);
-console.log(array2);
+var array = array.map((item) => item + 1);
+console.log(array);
 
 // filter 方法
 var array = [18, 9, 10, 35, 80];
-var array2 = array.filter(function (value, index, array) {
+var array = array.filter(function (value, index, array) {
   return value > 20;
 });
-console.log(array2); // [35, 80];
+console.log(array); // [35, 80];
 
 // reduce 方法
 var array = [1, 2, 3, 4];
